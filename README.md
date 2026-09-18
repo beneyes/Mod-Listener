@@ -26,4 +26,4 @@ https://learn.flucoma.org/learn/classification-neural-network/
 
 Play sounds back and see if the classification is working - the names should change depending on what sound is playing. 
 
-Once it is working control the modpianosequencer.maxpat to create music from the different tags. Each of the 5 tag is linked to a preset number in the sequencer patch.
+Once it is working control the modpianosequencer.maxpat to create music from the different tags. Each of the 5 tags can be linked to a preset number in the sequencer patch. This will result in different midi notes and timbre changing according to the audio being sent to the modlisteningproject.maxpat
