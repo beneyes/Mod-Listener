@@ -18,12 +18,9 @@ Launch modlisteningproject.maxpat
 Launch PWM receiver patch from the Wav-Seq repository
 
 Build the model 
-
-To build the learning model use example wav files or the built in examples
-
-Use this example video to see a demo of filling the data set classifying and lavbelling data : 
+Use this example video to see a demo of filling the data set classifying and labelling data : 
 https://learn.flucoma.org/learn/classification-neural-network/
-
+Create new labels for each sound classification
 Play sounds back and see if the classification is working - the names should change depending on what sound is playing. 
 
-Once it is working control the modpianosequencer.maxpat to create music from the different tags. Each of the 5 tags can be linked to a preset number in the sequencer patch. This will result in different midi notes and timbre changing according to the audio being sent to the modlisteningproject.maxpat
+Once it is working control the modpianosequencer.maxpat to control Wav-Seq from the different tags. Each of the 5 tags can be linked to a preset number in the sequencer patch. This will result in different midi notes and timbre changing according to the audio being sent to the modlisteningproject.maxpat
